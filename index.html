@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busra's Cookie Heaven</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+        
+</head>
+<body class="font-sans bg-gray-100">
+    <nav class="bg-gray-800 text-white p-4">
+       
+        <!-- Navigation Links (Hidden on Mobile) -->
+<div class="hidden md:flex space-x-4 justify-center">
+    <a href="#" class="text-lg font-medium text-white hover:text-yellow-400">HOME</a>
+    <a href="#menu" class="text-lg font-medium text-white hover:text-yellow-400">MENU</a>
+    <a href="#faqs" class="text-lg font-medium text-white hover:text-yellow-400">FAQ</a>
+    <a href="#contact" class="text-lg font-medium text-white hover:text-yellow-400">CONTACT</a>
+</div>
+
+
+        <!-- Mobile Menu Button (Hamburger Icon) -->
+        <button id="mobile-menu-button" class="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden space-y-2 text-center">
+            <a href="#" class="text-lg font-medium text-white hover:text-yellow-400">HOME</a>
+            <a href="#menu" class="text-lg font-medium text-white hover:text-yellow-400">MENU</a>
+            <a href="#contact" class="text-lg font-medium text-white hover:text-yellow-400">CONTACT</a>
+        </div>
+    </nav>
+
+   
+    <div class="relative bg-center bg-cover bg-fixed h-96" style="background-image: url('/images/cafe1.jpg');">
+    <h1 class="absolute inset-0 flex items-center justify-center text-5xl font-semibold text-white bg-black bg-opacity-50">Busra's Cookie Heaven</h1>
+    </div>
+    <!-- Menu Section -->
+    <section id="menu" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Our Delicious Menu</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-800">Chocolate Chip Cookies</h3>
+                    <img src="/images/image1.jpg" alt="Item 1" class="w-64 h-64 object-cover">
+                    <p class="text-gray-600">A classic favorite with rich chocolate chips.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$2.99 each</p>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-800">Chocolate Berry Pie</h3>
+                    <img src="/images/image2.jpg" alt="Item 2" class="w-64 h-64 object-cover">
+                    <p class="text-gray-600">A delightful blend of chocolate and berries.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$2.99 each</p>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-2xl font-semibold text-gray-800">Double Chocolate Brownies</h3>
+                    <img src="/images/image3.jpg" alt="Item 3" class="w-64 h-64 object-cover">
+                    <p class="text-gray-600">Decadent brownies with double the chocolate.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$3.99 each</p>
+                </div>
+            </div>
+        </div>
+        
+        
+            </div>
+        </div>
+    </section>
+    <!-- FAQs Section -->
+<section id="faqs" class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Frequently Asked Questions</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- FAQ 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800">Question 1: What are your business hours?</h3>
+                <p class="text-gray-600">Our business hours are from Monday to Friday, 9:00 AM to 6:00 PM.</p>
+            </div>
+            
+            <!-- FAQ 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800">Question 2: Do you offer delivery services?</h3>
+                <p class="text-gray-600">Yes, we offer delivery services within a 10-mile radius. Additional charges may apply.</p>
+            </div>
+            
+            <!-- FAQ 3 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800">Question 3: How can I contact customer support?</h3>
+                <p class="text-gray-600">You can contact our customer support team at support@example.com or by calling (123) 456-7890.</p>
+            </div>
+            
+            <!-- FAQ 4 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-gray-800">Question 4: Do you accept credit card payments?</h3>
+                <p class="text-gray-600">Yes, we accept major credit cards including Visa, MasterCard, and American Express.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="contact" class="bg-gray-800 text-white p-8">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Opening Hours -->
+        <div>
+            <h3 class="text-lg font-semibold mb-4">Opening Hours</h3>
+            <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+            <p>Saturday: 10:00 AM - 6:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div>
+            <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+            <p>Email: info@busracookies.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+
+        <!-- Address and Number Info -->
+        <div>
+            <h3 class="text-lg font-semibold mb-4">Address</h3>
+            <p>1234 Cookie Street</p>
+            <p>Cookieville, CA 12345</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
